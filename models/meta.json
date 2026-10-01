@@ -1,0 +1,43 @@
+{
+  "feature_cols": [
+    "Education",
+    "Experience",
+    "Location",
+    "Job_Title",
+    "Age",
+    "Gender"
+  ],
+  "categorical_cols": [
+    "Education",
+    "Location",
+    "Job_Title",
+    "Gender"
+  ],
+  "classes": {
+    "Education": [
+      "Bachelor",
+      "High School",
+      "Master",
+      "PhD"
+    ],
+    "Location": [
+      "Rural",
+      "Suburban",
+      "Urban"
+    ],
+    "Job_Title": [
+      "Analyst",
+      "Director",
+      "Engineer",
+      "Manager"
+    ],
+    "Gender": [
+      "Female",
+      "Male"
+    ]
+  },
+  "metrics": {
+    "mae": 9128.51,
+    "r2": 0.8746
+  }
+}
